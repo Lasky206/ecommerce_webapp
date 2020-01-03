@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
   <div class="text-center">
@@ -7,6 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
+        <img src="{% static 'img/beach.jpg'%}" alt="">
         <p>{{ content }}</p>
       </div>
     </div>
